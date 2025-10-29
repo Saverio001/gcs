@@ -1,0 +1,47 @@
+baseURL: "/"
+relativeURLs: true
+canonifyURLs: false
+title: CDN Test
+copyright: 'Copyright © 2016-{year} All Rights Reserved.'
+defaultContentLanguage: en
+pagination:
+  pagerSize: 10
+# paginatePath: page
+enableRobotsTXT: true
+enableEmoji: true
+pygmentsUseClasses: true
+
+blackfriday:
+  hrefTargetBlank: true
+
+taxonomies:
+#   category: categories
+#   series: series
+#   tag: tags
+#   authors: authors
+
+disableKinds: 
+ - "taxonomy" 
+ - "taxonomyTerm"
+build:
+  writeStats: true
+
+permalinks:
+  news: /news/:year/:month/:title/
+  blog: /blog/:year/:month/:title/
+
+module:
+  imports:
+    - path: github.com/razonyang/hugo-theme-bootstrap
+#   proxy: https://goproxy.cn
+
+# services:
+#   disqus:
+#     shortname: your-disqus-shortname
+
+markup:
+  highlight:
+    guessSyntax: true
+    lineNos: true
+    noClasses: false
+    lineNumbersInTable: false
