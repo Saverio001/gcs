@@ -79,6 +79,7 @@ jobs:
             hugo-
       - name: Build the site
         run: |
+          echo "${{ steps.pages.outputs.base_url }}/"
           hugo \
             --gc \
             --minify \
