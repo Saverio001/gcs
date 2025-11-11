@@ -8,7 +8,7 @@ mainSections:
 
 # titleSeparator: '|' # Title separator. Default to -.
 
-description: A simple site to test CDN delivery
+description: A Generic Corporate Services website
 keywords: text, video, images
 # images:
 #   - site-feature-image.jpg
@@ -18,7 +18,7 @@ metaRobots: noindex, nofollow # Default value for Meta Tag robots
 
 # logo: images/logo.png # Logo image. Default to images/logo.webp.
 logo: false # Disable Logo
-brand: CDN Test
+brand: GCS (XXXX)
 
 palettes: 
 palette: blue 
@@ -39,7 +39,7 @@ palette: blue
 #  - teal
 #  - yellow
 
-color: dark # light, dark or auto. Default to auto.
+color: light # light, dark or auto. Default to auto.
 
 # fullWidth: true # Full width.
 # fixedHeader: false # Turn on/off fixed header.

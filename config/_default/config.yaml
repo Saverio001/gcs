@@ -1,7 +1,7 @@
 #baseURL: "http://localhost/gcs/"
 relativeURLs: false
 canonifyURLs: false
-title: CDN Test
+title: Generic Corporate Services LTD.
 copyright: 'Copyright © 2016-{year} All Rights Reserved.'
 defaultContentLanguage: en
 pagination:
